@@ -1,0 +1,81 @@
+/* My Hobby Page - Starter Site - style sheet
+   This file decides how the page LOOKS: colours, fonts, sizes and spacing.
+   Each rule starts with a name (which part of the page), then { settings } .
+   Each setting is written   property: value;   and ends with a semicolon.
+   Anything between slash-star and star-slash is a comment. */
+
+/* BODY: the whole page. */
+body {
+  /* CHANGE ME: the font. If the first one is missing, the browser uses the next. */
+  font-family: Arial, sans-serif;
+  /* CHANGE ME: the page background colour. */
+  background-color: #f4f4f4;
+  /* CHANGE ME: the text colour. */
+  color: #333333;
+  /* Removes the gap the browser adds around the page. Leave it as is. */
+  margin: 0;
+}
+
+/* HEADER: the banner at the top. */
+header {
+  /* CHANGE ME: the banner colour. Try a colour name like teal, or a code like #e91e63. */
+  background-color: teal;
+  color: white;
+  text-align: center;
+  /* padding is the space inside the box, around the words. */
+  padding: 30px;
+}
+
+/* NAV: the menu bar. */
+nav {
+  background-color: #333333;
+  text-align: center;
+  padding: 10px;
+}
+
+/* NAV A: the links inside the menu. */
+nav a {
+  color: white;
+  /* Removes the underline from the menu links. */
+  text-decoration: none;
+  /* margin is the space outside the box, between the links. */
+  margin: 0 15px;
+}
+
+/* MAIN: the content area in the middle. */
+main {
+  /* CHANGE ME: the widest the content can get. Try 600px for narrow or 1000px for wide. */
+  max-width: 800px;
+  /* 20px is the space above and below. auto puts the content in the centre. */
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* SECTION: each box of content. */
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* Rounds the corners of each box. */
+  border-radius: 8px;
+}
+
+/* H2: the section headings. */
+h2 {
+  /* CHANGE ME: the heading colour. */
+  color: teal;
+}
+
+/* IMG: every picture on the page. */
+img {
+  /* Makes pictures shrink to fit the box. Leave it as is. */
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* FOOTER: the strip at the bottom. */
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #777777;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- My Hobby Page - Starter Site
+     This file is the web page. The browser reads it from top to bottom.
+     A COMMENT starts with the less-than sign, an exclamation mark and two dashes,
+     and ends with two dashes and a greater-than sign, like this whole note.
+     Comments are notes for people. The browser does not show them on the page. -->
+<html lang="en">
+
+<!-- HEAD: information ABOUT the page. Nothing in here shows on the page itself. -->
+<head>
+  <!-- This line lets the page show letters and symbols from any language. Leave it as is. -->
+  <meta charset="UTF-8">
+  <!-- This line makes the page fit phone and tablet screens. Leave it as is. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CHANGE ME: your page title. It shows on the browser tab, not on the page. -->
+  <title>My Hobby Page</title>
+  <!-- This line links the style sheet (style.css), which sets the colours and fonts. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- BODY: everything in here shows on the page. -->
+<body>
+
+  <!-- HEADER: the banner at the top of the page. -->
+  <header>
+    <!-- CHANGE ME: <h1> is the biggest heading. Put your site's name here. -->
+    <h1>My Hobby Page</h1>
+    <!-- CHANGE ME: <p> is a paragraph. Write one short sentence about your site. -->
+    <p>A small website about something I enjoy.</p>
+  </header>
+
+  <!-- NAV: the menu. Each <a> is a link that jumps to a section further down the page. -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#favourites">Favourites</a>
+    <a href="#links">Links</a>
+  </nav>
+
+  <!-- MAIN: the main content of the page. -->
+  <main>
+
+    <!-- SECTION 1: About. The id="about" is the name the menu link jumps to. -->
+    <section id="about">
+      <!-- CHANGE ME: <h2> is a smaller heading. -->
+      <h2>About My Hobby</h2>
+      <!-- CHANGE ME: an <img> shows a picture.
+           src = which picture file to show (it is in the images folder).
+           alt = words that describe the picture for people who can't see it. -->
+      <img src="images/hero.png" alt="Example picture: replace me">
+      <!-- CHANGE ME: tell visitors about your hobby. -->
+      <p>This is an example paragraph. Replace it with a few sentences about your hobby.</p>
+    </section>
+
+    <!-- SECTION 2: Favourites. -->
+    <section id="favourites">
+      <h2>My Favourite Things</h2>
+      <!-- <ul> is a list with bullet points. Each <li> is one item in the list.
+           CHANGE ME: change the items, or copy a whole <li>...</li> line to add one more. -->
+      <ul>
+        <li>Example favourite one</li>
+        <li>Example favourite two</li>
+        <li>Example favourite three</li>
+      </ul>
+      <!-- TIP: you can swap in any picture from the images folder, for example
+           images/cat.jpg or images/football.jpg. Just change the file name in src. -->
+      <img src="images/hobby1.png" alt="Example picture: replace me">
+      <img src="images/hobby2.png" alt="Example picture: replace me">
+    </section>
+
+    <!-- SECTION 3: Links. -->
+    <section id="links">
+      <h2>Find Out More</h2>
+      <!-- A link can also open another page of YOUR site. Here href is just the file name,
+           because about.html sits in the same folder as this page. -->
+      <p>Read more <a href="about.html">about me</a> on my second page.</p>
+      <!-- CHANGE ME: href is the web address the link goes to.
+           The words between <a> and </a> are what visitors click. -->
+      <p>Visit <a href="https://www.example.com">an example website</a> to learn more.</p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER: the strip at the bottom of the page. -->
+  <footer>
+    <!-- CHANGE ME: put your first name or class here. &copy; makes the © symbol. -->
+    <p>&copy; 2026 Made by Your Name</p>
+  </footer>
+
+</body>
+</html>
